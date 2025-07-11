@@ -1,12 +1,28 @@
-# React + Vite
+🖥️ Описание:
+Portfolio2 е личен уебсайт, създаден с React, който представя моите умения, проекти и опит.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+⚙️ Функционалности:
+Начало: Въведение с име и заглавие.
+Относно: Кратка информация за мен и интересите ми.
+Опит: Показва моите умения и преживявания във времето (чрез skills.json и history.json).
+Проекти: Представя три визуални проекта – кафене, детска стая и всекидневна – направени с помощта на Blender, с описание и изображение.
+Светъл/тъмен режим: Бутон за превключване на темата.
 
-Currently, two official plugins are available:
+🛠️ Използвани технологии:
+React: Основна структура на приложението.
+CSS Modules: Стилизиране на компонентите.
+JavaScript: Динамична логика и състояние.
+Blender: Създаване на проектните изображения (кафене, детска стая, всекидневна).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+🧭 Използване:
+Навигация чрез менюто в горната част.
+Превключване между тъмен и светъл режим с плаващ бутон.
+Разглеждане на проекти с визуализации при hover.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🙌 Кредити:
+Blender: За 3D моделите в проектната секция.
+React + CSS: За изграждането на сайта и дизайна.
+Tutorial от Code Complete - Youtube
+Chat GPT 
+

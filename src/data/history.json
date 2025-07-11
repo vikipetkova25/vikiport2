@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Student",
+    "organisation": "🎓 PGKMKS Varna",
+    "startDate": "Sept, 2021",
+    "endDate": "Present",
+    "experiences": [
+      "Currently in 11th grade studying E-commerce and IT",
+      "Participated in various workshops and innovation challenges",
+      "Built projects involving databases, web development, and C# apps"
+    ],
+    "imageSrc": "assets/history/itpg.png"
+  },
+  {
+    "role": "3D Modeling Enthusiast",
+    "organisation": "🧊 Personal Projects",
+    "startDate": "2022",
+    "endDate": "Present",
+    "experiences": [
+      "Created 3D models using Blender",
+      "Experimented with shapes, textures, and lighting",
+      "Developed creative and visual skills in spare time"
+    ],
+    "imageSrc": "assets/history/computer.png"
+  },
+  {
+    "role": "Nature & Art Lover",
+    "organisation": "🌿 ",
+    "startDate": "Ongoing",
+    "endDate": "",
+    "experiences": [
+      "Enjoy drawing and exploring creative arts",
+      "Spend time in nature to recharge and find inspiration",
+      "Use hobbies to balance technical learning with creativity"
+    ],
+    "imageSrc": "assets/history/plant.png"
+  }
+]

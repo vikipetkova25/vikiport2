@@ -1,0 +1,135 @@
+@import "../../vars.css";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: var(--color-bg);
+  position: relative;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white; 
+  text-shadow: none !important;
+}
+
+.title:hover {
+  text-shadow:
+    0 0 5px rgba(108, 193, 255, 0.5),
+    0 0 8px rgba(108, 193, 255, 0.3);
+  transform: translateY(-3px);
+  transition: text-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+
+/* По подразбиране (светъл режим) */
+.title {
+  color: #5D3A9B; /* тъмно лилаво */
+  transition: color 0.3s ease;
+}
+
+/* В тъмен режим */
+[data-theme="dark"] .title {
+  color: #fff; /* бяло / светло */
+}
+
+
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: auto;
+}
+
+
+.menuBtn {
+  display: none;
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+
+.menuItems {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menuItems li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 900;
+  font-size: 22px; /* увеличава размера на текста */
+}
+
+
+/* MOBILE */
+@media screen and (max-width: 830px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    position: absolute;
+    right: 10%;
+    top: 80px;
+    z-index: 3;
+  }
+
+  
+  .menuBtn {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 10%;
+  z-index: 9999; /* Това е добре */
+  filter: invert(1);
+}
+
+
+ 
+
+  /* Скриваме меню списъка по подразбиране */
+ .menuItems {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 13px;
+  margin-top: 10px;
+  padding: 0 33px; 
+  border-radius: 10px;
+  background: linear-gradient(0deg, rgba(25,55,109,0.2) 0%, rgba(25,55,109,1) 100%);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+}
+.menuOpen {
+  max-height: 300px; 
+  padding: 24px 33px; 
+  opacity: 1;
+}
+}
+
+
+.navLink {
+  background: none;
+  border: none;
+  color: var(--color-text); /* или избери подходящ цвят */
+  font: inherit;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: var(--color-primary);
+}

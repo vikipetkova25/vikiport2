@@ -1,0 +1,26 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "/assets/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/assets/skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/assets/skills/react.png"
+  },
+  {
+    "title": "Blender",
+    "imageSrc": "/assets/skills/Blender.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "/assets/skills/sql.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "/assets/skills/sharp.png"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "☕ Coffee Shop",
+    "imageSrc": "/assets/projects/kafe.png",
+    "description": "A cozy coffee shop 3D scene modeled in Blender."
+  },
+  {
+    "title": "🧸 Kids Room",
+    "imageSrc": "/assets/projects/lilstaq.png",
+    "description": "A playful kids room designed entirely in Blender."
+  },
+  {
+    "title": "🛋️ Living Room",
+    "imageSrc": "/assets/projects/staq1.png",
+    "description": "A modern living room interior visualized using Blender."
+  }
+]
